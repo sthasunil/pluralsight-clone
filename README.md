@@ -1,2 +1,2 @@
 # pluralsight-clone
-Clone of pluralsight 
+Clone of pluralsight login page.
