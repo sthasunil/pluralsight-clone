@@ -122,7 +122,7 @@ h1, h2, h3, h4, h, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('/images/login-bg.jpg') no-repeat center center / cover;
+    background: url('./images/login-bg.jpg') no-repeat center center / cover;
     height: 100vh;
     text-align: center;
 }
