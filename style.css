@@ -8,7 +8,6 @@ body {
     font-weight: 300;
     background: #181818;
     color: #fff;
-    overflow: hidden;
 }
 
 h1, h2, h3, h4, h, h6 {
@@ -18,6 +17,7 @@ h1, h2, h3, h4, h, h6 {
 #wrapper {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 #left {
@@ -26,7 +26,6 @@ h1, h2, h3, h4, h, h6 {
     flex: 1;
     align-items: center;
     justify-content: center;
-    height: 100vh;    
 }
 
 #right {
@@ -35,25 +34,23 @@ h1, h2, h3, h4, h, h6 {
 
 #signin {
     display: flex;
+    flex: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 80%;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
-/* Spacer */
-.spacer {
-    flex: 0.5;
-}
 /* Sign in */
 #signin form {
     width: 80%;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 #signin .logo {
-    margin-bottom: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
     max-width: 80%;
 }
 
@@ -101,7 +98,7 @@ h1, h2, h3, h4, h, h6 {
 #signin .or {
     display: flex;
     flex-direction: row;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     align-items: center;
 }
 
@@ -141,11 +138,15 @@ h1, h2, h3, h4, h, h6 {
 
 /* Footer */
 #main-footer {
+    flex: auto;
     color: #ccc;
     text-align: center;
     font-size: 0.8rem;
     max-width: 80%;
-    padding-top: 5rem;
+}
+
+#main-footer p {
+    margin: 0.5rem 0;
 }
 
 #main-footer a {
@@ -217,7 +218,6 @@ h1, h2, h3, h4, h, h6 {
 
     #left {
         justify-content: start;
-        margin-top: 4vh;
     }
 
     #signin .logo {
